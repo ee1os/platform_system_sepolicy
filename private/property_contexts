@@ -1378,6 +1378,7 @@ persist.bootanim.color1     u:object_r:bootanim_system_prop:s0 exact int
 persist.bootanim.color2     u:object_r:bootanim_system_prop:s0 exact int
 persist.bootanim.color3     u:object_r:bootanim_system_prop:s0 exact int
 persist.bootanim.color4     u:object_r:bootanim_system_prop:s0 exact int
+persist.bootanim.setup_done u:object_r:bootanim_system_prop:s0 exact bool
 
 sys.init.userspace_reboot.in_progress u:object_r:userspace_reboot_exported_prop:s0 exact bool
 sys.use_memfd                         u:object_r:use_memfd_prop:s0 exact bool
